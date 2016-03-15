@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EveCacheParser", "Desmont_McCallock-evecacheparser\src\EveCacheParser\EveCacheParser.csproj", "{8948DCA5-C664-4093-A1FC-6C37C575FBE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dumper", "Desmont_McCallock-evecacheparser\src\Dumper\Dumper.csproj", "{D0F83DD2-6081-4FDA-96F0-D0883EAD7023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EveCacheParser.Tests", "Desmont_McCallock-evecacheparser\test\EveCacheParser.Tests\EveCacheParser.Tests.csproj", "{250E7060-E5F3-4987-8A60-EA03921F16B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheTest", "CacheTest\CacheTest.csproj", "{DEBCE9F5-820F-4511-A0D3-3EE334DA5A8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF499431-C073-4C9D-983F-C35D703DB910}"
+	ProjectSection(SolutionItems) = preProject
+		EveCmdList.txt = EveCmdList.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EVEParser", "EVEParser\EVEParser.csproj", "{2F440AF9-BAD4-46D5-80D1-1B377B243FA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8948DCA5-C664-4093-A1FC-6C37C575FBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8948DCA5-C664-4093-A1FC-6C37C575FBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8948DCA5-C664-4093-A1FC-6C37C575FBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8948DCA5-C664-4093-A1FC-6C37C575FBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F83DD2-6081-4FDA-96F0-D0883EAD7023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F83DD2-6081-4FDA-96F0-D0883EAD7023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F83DD2-6081-4FDA-96F0-D0883EAD7023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F83DD2-6081-4FDA-96F0-D0883EAD7023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250E7060-E5F3-4987-8A60-EA03921F16B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250E7060-E5F3-4987-8A60-EA03921F16B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250E7060-E5F3-4987-8A60-EA03921F16B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250E7060-E5F3-4987-8A60-EA03921F16B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEBCE9F5-820F-4511-A0D3-3EE334DA5A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBCE9F5-820F-4511-A0D3-3EE334DA5A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBCE9F5-820F-4511-A0D3-3EE334DA5A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBCE9F5-820F-4511-A0D3-3EE334DA5A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F440AF9-BAD4-46D5-80D1-1B377B243FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F440AF9-BAD4-46D5-80D1-1B377B243FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F440AF9-BAD4-46D5-80D1-1B377B243FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F440AF9-BAD4-46D5-80D1-1B377B243FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
