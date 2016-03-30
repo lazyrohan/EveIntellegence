@@ -105,6 +105,7 @@ namespace CacheParser
                 var cachedfiles = Parser.GetMachoNetCachedFiles();
                 string strbuf = "";
                 strbuf+= method+" get "+cachedfiles.Count().ToString()+" files."+Environment.NewLine;
+                
                 int count = 0;
                 foreach (var cachefile in cachedfiles)
                 {

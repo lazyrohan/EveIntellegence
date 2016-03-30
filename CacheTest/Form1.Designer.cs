@@ -30,6 +30,7 @@
         {
             this.MainTab = new System.Windows.Forms.TabControl();
             this.MarketTab = new System.Windows.Forms.TabPage();
+            this.RefreshDBBtn = new System.Windows.Forms.Button();
             this.SalesDataGrid = new System.Windows.Forms.DataGridView();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.DebugTab = new System.Windows.Forms.TabPage();
@@ -38,7 +39,6 @@
             this.MethodCallsList = new System.Windows.Forms.ListBox();
             this.ParseCacheBtn = new System.Windows.Forms.Button();
             this.LogInfoEdit = new System.Windows.Forms.RichTextBox();
-            this.RefreshDBBtn = new System.Windows.Forms.Button();
             this.MainTab.SuspendLayout();
             this.MarketTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SalesDataGrid)).BeginInit();
@@ -69,6 +69,15 @@
             this.MarketTab.Text = "Market";
             this.MarketTab.UseVisualStyleBackColor = true;
             // 
+            // RefreshDBBtn
+            // 
+            this.RefreshDBBtn.Location = new System.Drawing.Point(47, 18);
+            this.RefreshDBBtn.Name = "RefreshDBBtn";
+            this.RefreshDBBtn.Size = new System.Drawing.Size(75, 23);
+            this.RefreshDBBtn.TabIndex = 3;
+            this.RefreshDBBtn.Text = "RefreshDB";
+            this.RefreshDBBtn.UseVisualStyleBackColor = true;
+            // 
             // SalesDataGrid
             // 
             this.SalesDataGrid.AllowUserToOrderColumns = true;
@@ -79,7 +88,7 @@
             this.SalesDataGrid.Name = "SalesDataGrid";
             this.SalesDataGrid.RowTemplate.ReadOnly = true;
             this.SalesDataGrid.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.SalesDataGrid.Size = new System.Drawing.Size(626, 158);
+            this.SalesDataGrid.Size = new System.Drawing.Size(626, 379);
             this.SalesDataGrid.TabIndex = 2;
             // 
             // treeView1
@@ -203,15 +212,6 @@
             this.LogInfoEdit.Size = new System.Drawing.Size(338, 422);
             this.LogInfoEdit.TabIndex = 0;
             this.LogInfoEdit.Text = "";
-            // 
-            // RefreshDBBtn
-            // 
-            this.RefreshDBBtn.Location = new System.Drawing.Point(47, 18);
-            this.RefreshDBBtn.Name = "RefreshDBBtn";
-            this.RefreshDBBtn.Size = new System.Drawing.Size(75, 23);
-            this.RefreshDBBtn.TabIndex = 3;
-            this.RefreshDBBtn.Text = "RefreshDB";
-            this.RefreshDBBtn.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
